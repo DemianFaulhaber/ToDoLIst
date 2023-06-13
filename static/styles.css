@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+}
+
+#title{
+    width: 25vw;
+}
+
+#workdata{
+    width: 25vw;
+}
+
+.todolist{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top:5vw;
+}
+
+.todoul{
+    width: 100vw;
+    height: 100vh;
+    list-style: none;
+    display: inline;
+}
+
+.tarea{
+    text-align: center;
+    color: rgb(230, 227, 227);
+    background-color: rgb(34, 34, 34);
+    height: 20vw;
+    width: 20vw;
+    border-radius: 10px;
+    list-style: none;
+    margin: 2vw;
+    float: left;
+
+}
+
+.title{
+    font-weight: 900;
+    position: relative;
+    top: 1vw;
+}
+
+.desc{
+    position: relative;
+    top: 2vw;
+}
+
+.erase{
+    display: block; position: relative; background: none; border: none;
+    top: 70%;
+    left: 80%;
+    cursor: pointer;
+}
+
+.bi-trash3{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    background-color: red;
+    padding: 0.5vw;
+    font-size: 3vw;
+    border-radius: 50%;
+}
